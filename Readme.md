@@ -24,13 +24,15 @@ This project demonstrates core concepts used in **quant trading systems**, inclu
 
 ## ⚙️ Architecture
 
+```
 [Client Orders]
-↓
+      ↓
 [Order Book]
-↓
+      ↓
 [Matching Engine]
-↓
+      ↓
 [Trade Execution]
+```
 
 ### Components:
 
@@ -57,16 +59,18 @@ This project demonstrates core concepts used in **quant trading systems**, inclu
 
 ## 🔄 Example
 
-Sell Orders:
-Price Qty
-100 10
-101 5
+```
+Sell Orders | Price Qty
+100           10
+101           5
+```
 
 Incoming Buy (Market, Qty=12):
 
+```
 Execution:
-
 - 10 @ 100
 - 2 @ 101
+```
 
 ---
