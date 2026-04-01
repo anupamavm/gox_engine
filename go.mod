@@ -1,3 +1,3 @@
-module gox
+module gox_engine
 
 go 1.24.2
